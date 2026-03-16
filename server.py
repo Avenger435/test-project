@@ -6,7 +6,7 @@ import uvicorn
 app = FastAPI()
 
 
-@app.get("/", summary="Root")
+@app.get("/", summary="smdams")
 def read_root():
     return {"message": "FastAPI is running", "items": ["item1", "item2"]}
 
